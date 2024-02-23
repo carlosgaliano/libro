@@ -1,0 +1,7 @@
+MODULES_MANAGER_V3
+manage|D:\Django\libro\mysite\manage.py
+mysite.__init__|D:\Django\libro\mysite\mysite\__init__.py
+mysite.asgi|D:\Django\libro\mysite\mysite\asgi.py
+mysite.settings|D:\Django\libro\mysite\mysite\settings.py
+mysite.urls|D:\Django\libro\mysite\mysite\urls.py
+mysite.wsgi|D:\Django\libro\mysite\mysite\wsgi.py
