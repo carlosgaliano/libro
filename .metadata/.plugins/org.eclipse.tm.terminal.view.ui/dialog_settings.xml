@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="LaunchTerminalSettingsDialog">
-		<item key="terminalLabel" value="Ubuntu (WSL)"/>
+		<item key="terminalLabel" value="PoweShell"/>
 		<section name="SettingsPanelControl">
 			<section name="Git Bash">
 				<item key="encoding" value="UTF-8"/>
@@ -10,6 +10,9 @@
 				<item key="encoding" value="UTF-8"/>
 			</section>
 			<section name="Ubuntu (WSL)">
+				<item key="encoding" value="UTF-8"/>
+			</section>
+			<section name="PoweShell">
 				<item key="encoding" value="UTF-8"/>
 			</section>
 		</section>
