@@ -3,7 +3,6 @@ blog.__init__|D:\Django\libro\mysite\blog\__init__.py
 blog.admin|D:\Django\libro\mysite\blog\admin.py
 blog.apps|D:\Django\libro\mysite\blog\apps.py
 blog.migrations.0001_initial|D:\Django\libro\mysite\blog\migrations\0001_initial.py
-blog.migrations.0002_alter_post_urlabreviada|D:\Django\libro\mysite\blog\migrations\0002_alter_post_urlabreviada.py
 blog.migrations.__init__|D:\Django\libro\mysite\blog\migrations\__init__.py
 blog.models|D:\Django\libro\mysite\blog\models.py
 blog.tests|D:\Django\libro\mysite\blog\tests.py

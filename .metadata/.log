@@ -1130,3 +1130,217 @@ java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\c
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
 	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+!SESSION 2024-03-05 21:48:17.863 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-03-05 21:49:27.636
+!MESSAGE The python client still hasn't connected back to the eclipse java vm (will retry...)
+!STACK 0
+java.lang.RuntimeException: The python client still hasn't connected back to the eclipse java vm (will retry...)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:331)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.editor.PyEdit$2.run(PyEdit.java:560)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-05 21:49:29.500
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\galia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-03-05 21:49:32.918
+!MESSAGE Attempt: 2 of 5 failed, trying again...(socket connected: still null)
+!STACK 0
+java.lang.RuntimeException: Attempt: 2 of 5 failed, trying again...(socket connected: still null)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:350)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.editor.PyEdit$2.run(PyEdit.java:560)
+
+!ENTRY org.brainwy.liclipsetext.shared_core 4 4 2024-03-05 21:49:34.286
+!MESSAGE C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\com.brainwy.liclipse.editor_9.0.1.202211050736\etc\6h9bk9a5efqdyf2uc4nurq1tw (El sistema no puede encontrar la ruta especificada)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\com.brainwy.liclipse.editor_9.0.1.202211050736\etc\6h9bk9a5efqdyf2uc4nurq1tw (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
+	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-03-05 22:09:22.827
+!MESSAGE Unhandled: NamedExpr[target=Name[id=instance_lookups, ctx=NamedStore, reserved=false], value=Call[func=Name[id=getattr, ctx=Load, reserved=false], args=[Name[id=self, ctx=Load, reserved=false], Str[s=instance_lookups, type=SingleDouble, unicode=false, raw=false, binary=false, fstring=false, fstring_nodes=null], Name[id=None, ctx=Load, reserved=true]], keywords=[], starargs=null, kwargs=null]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: NamedExpr[target=Name[id=instance_lookups, ctx=NamedStore, reserved=false], value=Call[func=Name[id=getattr, ctx=Load, reserved=false], args=[Name[id=self, ctx=Load, reserved=false], Str[s=instance_lookups, type=SingleDouble, unicode=false, raw=false, binary=false, fstring=false, fstring_nodes=null], Name[id=None, ctx=Load, reserved=true]], keywords=[], starargs=null, kwargs=null]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:116)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitNamedExpr(VisitorBase.java:201)
+	at org.python.pydev.parser.jython.ast.NamedExpr.accept(NamedExpr.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitIfPart(MakeAstValidForPrettyPrintingVisitor.java:1267)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitIf(MakeAstValidForPrettyPrintingVisitor.java:1256)
+	at org.python.pydev.parser.jython.ast.If.accept(If.java:96)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFunctionDef(MakeAstValidForPrettyPrintingVisitor.java:991)
+	at org.python.pydev.parser.jython.ast.FunctionDef.accept(FunctionDef.java:136)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitClassDef(MakeAstValidForPrettyPrintingVisitor.java:851)
+	at org.python.pydev.parser.jython.ast.ClassDef.accept(ClassDef.java:162)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:275)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:140)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-03-06 00:10:23.524
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:builtins.self
+END@@
+
+ProcessInfo:
+
+ - Executed: D:\Django\libro\.venv\Scripts\python.exe -u C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\org.python.pydev.core_10.0.1.202211050736\pysrc\pycompletionserver.py 60292
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\galia\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=GLINUX
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_3472=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\galia
+LOCALAPPDATA=C:\Users\galia\AppData\Local
+LOGONSERVER=\\GLINUX
+NUMBER_OF_PROCESSORS=8
+ONEDRIVE=C:\Users\galia\OneDrive
+OS=Windows_NT
+PATH=C:/Program Files/Brainwy/LiClipse 9.0.1/jre/bin/server;C:/Program Files/Brainwy/LiClipse 9.0.1/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Neovim\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\dart-sdk\bin;C:\Users\galia\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\galia\AppData\Local\Programs\Python\Python311\;C:\Users\galia\AppData\Local\Microsoft\WindowsApps;C:\Users\galia\.dotnet\tools;C:\Users\galia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\galia\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\bin;C:\Users\galia\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.1\bin;;C:\SQL_practica;C:\Users\galia\AppData\Local\GitHubDesktop\bin;C:\Program Files\Brainwy\LiClipse 9.0.1;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+POWERSHELL_DISTRIBUTION_CHANNEL=MSI:Windows 10 Home Single Language
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9e0d
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYCHARM COMMUNITY EDITION=C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.1\bin;
+PYTHONPATH=C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\org.python.pydev.core_10.0.1.202211050736\pysrc\pydev_sitecustomize;C:\Users\galia\AppData\Local\Programs\Python\Python311\DLLs;C:\Users\galia\AppData\Local\Programs\Python\Python311\Lib;C:\Users\galia\AppData\Local\Programs\Python\Python311;D:\Django\libro\.venv;D:\Django\libro\.venv\Lib\site-packages;D:\PRACTICA\Django2\venv\Scripts
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\galia\AppData\Local\Temp
+TMP=C:\Users\galia\AppData\Local\Temp
+USERDOMAIN=GLINUX
+USERDOMAIN_ROAMINGPROFILE=GLINUX
+USERNAME=galia
+USERPROFILE=C:\Users\galia
+WINDIR=C:\WINDOWS
+ZES_ENABLE_SYSMAN=1
+
+ - Working Dir:
+C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\org.python.pydev.core_10.0.1.202211050736\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingWriteFully(Unknown Source)
+	at java.base/sun.nio.ch.SocketAdaptor$2.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.write(AbstractShell.java:558)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:709)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:702)
+	at org.python.pydev.ast.codecompletion.shell.CompletionsShell.getImportCompletions(CompletionsShell.java:63)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createInnerFromServer(CompiledModule.java:347)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.getGlobalTokens(CompiledModule.java:551)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:890)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:710)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:660)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:902)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:710)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:670)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.internalFindGlobalTokDef(SourceModule.java:1370)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1338)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1280)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1262)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:825)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:211)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:92)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+!SESSION 2024-03-06 15:54:41.808 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-06 15:59:51.663
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\galia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.brainwy.liclipsetext.shared_core 4 4 2024-03-06 15:59:55.739
+!MESSAGE C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\com.brainwy.liclipse.editor_9.0.1.202211050736\etc\6h9bk9a5efqdyf2uc4nurq1tw (El sistema no puede encontrar la ruta especificada)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 9.0.1\plugins\com.brainwy.liclipse.editor_9.0.1.202211050736\etc\6h9bk9a5efqdyf2uc4nurq1tw (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
+	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-03-06 16:00:02.009
+!MESSAGE The python client still hasn't connected back to the eclipse java vm (will retry...)
+!STACK 0
+java.lang.RuntimeException: The python client still hasn't connected back to the eclipse java vm (will retry...)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:331)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.editor.PyEdit$2.run(PyEdit.java:560)
+
+!ENTRY org.python.pydev.shared_core 4 4 2024-03-06 16:00:07.429
+!MESSAGE Attempt: 2 of 5 failed, trying again...(socket connected: still null)
+!STACK 0
+java.lang.RuntimeException: Attempt: 2 of 5 failed, trying again...(socket connected: still null)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:350)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:240)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:168)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:219)
+	at org.python.pydev.editor.PyEdit$2.run(PyEdit.java:560)

@@ -6,10 +6,10 @@ from .models import Post
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ('titulo', 'urlAbreviada', 'author', 'publicar', 'estado')
-    list_filter = ('estado', 'creado', 'publicar', 'author')
-    search_fields = ('titulo', 'body')
-    prepopulated_fields = {'urlAbreviada': ('titulo',)}
+    list_display = ('tittle', 'slug', 'author', 'publish', 'status')
+    list_filter = ('status', 'created', 'publish', 'author')
+    search_fields = ('tittle', 'body')
+    prepopulated_fields = {'slug': ('tittle',)}
     raw_id_fields = ('author',)
-    date_hierarchy = 'publicar'
-    ordering = ('estado', 'publicar')
+    date_hierarchy = 'publish'
+    ordering = ('status', 'publish')
