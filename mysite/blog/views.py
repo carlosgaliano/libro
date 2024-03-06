@@ -3,6 +3,7 @@ from .models import Post
 
 # Create your views here.
 # creacion de vista de detalle y listado
+#prueba de git rama ocualta
 
 def post_list(request):
     posts = Post.published.all()
