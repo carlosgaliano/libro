@@ -10,7 +10,7 @@ class PublishedManager(models.Manager):
         return super(PublishedManager, self).filter(status="published")
         
     
-
+# clase Post
 class Post(models.Model):
     STATUS_CHOICES = {
         ('draft', 'Draft'),
