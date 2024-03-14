@@ -40,8 +40,4 @@ Enlace de URL [Google](https://www.google.com/)
 
 
 
-
-
-
-
-
+Se borra /.metadata
