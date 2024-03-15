@@ -26,18 +26,73 @@ _______________________
 
 ###### titulo 6
 
-Este es un formato de **negrita** para los textos **bold** y en formato _italica_ o **_cursiva y negrita_**
+- Este es un formato de **negrita** para los textos **bold** 
+
+- formato _italica_ o **_cursiva y negrita_** o 
+
+- el ~~texto tachado~~  
+
+
+
+### Lista numeroca
+
+1. Una descripcion
+
+2. otra descripcion
+
+3. ultima descripciion
+
+### Esto es un link
+
+[Link](https_google.com)
+
+
+
+### Pegar codigo
+
+```js
+const highlightedCode = hljs.highlight(
+  '<span>Hello World!</span>',
+  { language: 'xml' }
+).value
+```
+
+```css
+.clase{
+    display: block;
+}
+```
+
+```html
+<pre><code class="language-html">...</code></pre>
+```
+
+
 
 Enlace de URL [Google](https://www.google.com/)
 
 
 
-| 1   | 2   | 3   |
-| --- | --- | --- |
-| 1   | 2   | 3   |
-| 1   | 2   | 3   |
-| 1   | 2   | 3   |
+<HR>
+
+-------
+
+### Tablas
+
+| Nombre | Apellido |
+| ------ | -------- |
+| Carlos | Galiano  |
+
+### Citas
+
+> coloacr un cita.
 
 
 
-Se borra /.metadata
+### Divicion
+
+***
+
+
+
+
